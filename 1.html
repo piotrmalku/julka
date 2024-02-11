@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Walentyna 2024</title>
+    <style>
+        body {
+            background-color: #ffcccb;
+					background-image: url("hellokicia4.png");
+			background-size: cover;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            background-color: #ff4081;
+			background-image: url("hellokicia2.png");
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        main {
+            background-image: url("123456.png");
+			color: #black;
+			background-color: #blue;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #ff4081;
+            color: #rose;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Czy zostaniesz moją walentynką?</h1>
+    </header>
+
+    <main>
+       <b> <strong><p>Kochana Julio</p>
+        <p>W ten specjalny dzień, mam do ciebie spacjalne pytanie....</p>
+        <p>Zostaniesz moja Walentynką?</p>
+        <p><button onclick="redirect()">Tak marze o tym!</button></p>
+        <p><button onclick="redirect2()">Nie</button></p></strong></b>
+    </main>
+
+    <div id="noOptionMessage" style="display: none;">
+        <p>Nie ma innej opcji niz Tak w Wakentynki  😄</p>
+    </div>
+
+    <script>
+        function redirect() {
+            window.location.href = 'thankyou.html';
+        }
+
+        function showNoOptionMessage() {
+            document.getElementById('noOptionMessage').style.display = 'block';
+        }
+    </script>
+	
+	<script>
+        function redirect2() {
+            window.location.href = 'super.html';
+        }
+
+        function showNoOptionMessage() {
+            document.getElementById('noOptionMessage').style.display = 'block';
+        }
+		
+    </script>
+	
+	
+	
+	
+
+</body>
+</html>
